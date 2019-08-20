@@ -9,11 +9,9 @@ import java.net.URL;
 
 public class WWOResponse {
 	private static final String KEY_VALUE = "04c3adde5c0d4855ace121335190708"; //"04e98fac0b734480b44143104191902"; //"f0105f618b794b359f8135714181612";	
-	private static final String KEY = "key";
 	
 	private static final String URL_PREFIX = "http://api.worldweatheronline.com/premium/v1/weather.ashx?key="+KEY_VALUE;
-	
-	
+		
 	private static final String LOCATION = "q";
 	private static final String NUMBER_OF_DAYS = "num_of_days";
 	private static final String FORMAT = "format";	
